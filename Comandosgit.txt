@@ -1,0 +1,26 @@
+Comandos git:
+Estando en la carpeta que trabajare Tarea4/
+-git init
+-git add OperacionesMatematicas.ipynb
+-git add Listas.ipynb
+-git status
+-git commit -m ‘Tarea4’
+-git status
+-git remote add origin https://github.com/VicenteCanales/Tarea4.git
+-git push -u origin master
+-git status
+
+Convertire estos archivos a formato py, usando el siguiente comando:
+Jupyter nbconvert  --to script ‘Listas.ipynb’ 
+Jupyter nbconvert --to script ‘OperacionesMatematicas.ipynb’
+-git add Listas.py
+-git add OperacionesMatematicas.py
+-git log
+-git status
+-git commit -m ‘Tarea4 Final’
+-git push
+A estas alturas me di cuenta que tenia subida los archivos en dos carpetas que no correspondían , las cuales elimine y deje en el repositorio los archivos ipynb originales y las versiones convertidas a py.
+-ahora subiré este archivo Word
+-git add Comandosgit.txt
+-git commit -m ‘Comando’
+-git push
